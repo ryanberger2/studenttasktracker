@@ -12,44 +12,25 @@
 	<h1>SHINE</h1>
 	<div class="container">	
 	
-		<div class="odd" style="display: inline"><input type="checkbox" id=1 name=1><label class="odd" for="1">1</label></div>
-	
-
-			<div class="even animated heartBeat" style="display: inline"><input type="checkbox" id=2 name=2><label class="even" for="2">2</label></div>
-
-		<script>
-			const number_elements = document.querySelector('.odd, .even'); 
-
-			number_elements.addEventListener('click', myFunction); 
-
-			function myFunction() {
-				if (event.target.classList.contains("animated", "heartBeat")) {
-					event.target.classList.remove("animated", "heartBeat")
-					console.log("remove animation")
-				} else {
-				event.target.classList.add("animated", "heartBeat");
-				console.log("add animation")
-				}
-			}
-
-		</script>
-
-			<div class="odd animated heartBeat" style="display: inline"><input type="checkbox" id=3 name=3><label class="odd" for="3">3</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=4 name=4><label class="even" for="4">4</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=5 name=5><label class="odd" for="5">5</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=6 name=6><label class="even" for="6">6</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=7 name=7><label class="odd" for="7">7</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=8 name=8><label class="even" for="8">8</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=9 name=9><label class="odd" for="9">9</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=10 name=10><label class="even" for="10">10</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=11 name=11><label class="odd" for="11">11</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=12 name=12><label class="even" for="12">12</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=13 name=13><label class="odd" for="13">13</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=14 name=14><label class="even" for="14">14</label></div>
-			<div class="odd animated shake" style="display: inline"><input type="checkbox" id=15 name=15><label class="odd" for="15">15</label></div>
-			<div class="even animated shake" style="display: inline"><input type="checkbox" id=16 name=16><label class="even" for="16">16</label></div>
+		<div class="num"><input type="checkbox" id=1 name=1><label class="odd" for="1">1</label></div>
+		<div class="num"><input type="checkbox" id=2 name=2><label class="even" for="2">2</label></div>
+		<div class="num"><input type="checkbox" id=3 name=3><label class="odd" for="3">3</label></div>
+		<div class="num"><input type="checkbox" id=4 name=4><label class="even" for="4">4</label></div>
+		<div class="num"><input type="checkbox" id=5 name=5><label class="odd" for="5">5</label></div>
+		<div class="num"><input type="checkbox" id=6 name=6><label class="even" for="6">6</label></div>
+		<div class="num"><input type="checkbox" id=7 name=7><label class="odd" for="7">7</label></div>
+		<div class="num"><input type="checkbox" id=8 name=8><label class="even" for="8">8</label></div>
+		<div class="num"><input type="checkbox" id=9 name=9><label class="odd" for="9">9</label></div>
+		<div class="num"><input type="checkbox" id=10 name=10><label class="even" for="10">10</label></div>
+		<div class="num"><input type="checkbox" id=11 name=11><label class="odd" for="11">11</label></div>
+		<div class="num"><input type="checkbox" id=12 name=12><label class="even" for="12">12</label></div>
+		<div class="num"><input type="checkbox" id=13 name=13><label class="odd" for="13">13</label></div>
+		<div class="num"><input type="checkbox" id=14 name=14><label class="even" for="14">14</label></div>
+		<div class="num"><input type="checkbox" id=15 name=15><label class="odd" for="15">15</label></div>
+		<div class="num"><input type="checkbox" id=16 name=16><label class="even" for="16">16</label></div>
 		</div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
